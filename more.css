@@ -1,0 +1,98 @@
+
+/* comments i dont write are kinda self explanitory*/
+.infoye{
+  background-color: rgb(255, 191, 163); /* makes the background colour of this text box a light orange*/
+  margin: 20px;
+  width:49%;
+  font-size:50px; /* makes heading font bigger*/
+  padding:30px;
+  border-radius:20px;
+  text-align:center; /* aligns the text in the textbox to the middle*/
+  height:145px; /* sets the height of the text box*/
+  line-height: 145px; /* centers text vertically */
+}
+.infoya{
+  background-color: rgb(255, 251, 174);
+  padding: 20px;
+  border-radius:20px; /* roudns the text box */
+  font-size: 30px;
+  width:90%; /* makes text box looooooooong*/
+  margin:30px; /* adds some margin */
+  text-align:center;
+}
+.palete{ /* picture of the paint pallette*/
+ width:39%; /* speicificlaly changed size to fit inline with heading text*/
+ height:30%;/* changethe height of the image so that it fits better in teh page*/
+ border-radius: 20px; /* roudns the box*/
+ float:inline-end; /* moves the item to the end of the line*/
+ margin:10px;
+ margin-top:20px;
+ border: solid 10px rgb(255, 152, 88);
+ opacity: .8; /* lowers the opacity of the image to make it less eyeburnign*/
+}
+.layer{/* one of the texts*/
+  background-color: rgb(255, 191, 163);
+  margin:20px;
+  margin-top: 30px; /* makes the top margin more than the left and right margin */
+  width:45%;
+  padding:20px;
+  border-radius:20px;
+  font-size:25px;
+  text-align:center; /* aligns the text to the center of the box*/
+  vertical-align:middle; /*aligns the text box to the middle of the lien and inline wiht the image*/
+}
+.layering{ /* this ones the image*/
+  width:15%;
+  border: solid 10px rgb(255, 153, 0);
+  vertical-align: middle;
+}
+div{ /* helps seperates the blocks of stuff for formatting*/
+  display: flex; /* displays element as a flex container */
+  justify-content: center; /* centers the item horizontally*/
+  align-items: center; /* centers the item vertically*/
+  height: 200px;
+  margin:30px;
+  border-top:solid 5px rgb(255, 153, 0);
+  padding:30px;
+}
+
+.blend{/* text*/
+  background-color: rgb(255, 191, 163);
+  margin:20px;
+  margin-top: 30px;
+  width:45%; /* the size of the text box */
+  padding:20px;
+  border-radius:20px;
+  font-size:25px;
+  text-align:center; /* the text is centered. */
+  vertical-align:middle; /* aligns in the middle of the line and inline with the images*/
+}
+.waterblend{ /* image for this section 1*/
+  width:15%;
+  border: solid 10px rgb(255, 153, 0);
+  border-left:0px;
+  vertical-align: middle; /* alings the image with the image*/
+}
+.colourblend{ /* 2nd image for this section*/
+  width:16.2%;
+  border: solid 10px rgb(255, 153, 0);
+  border-right:0px;
+  vertical-align: middle;  /* aligns the picture inlien with the text*/
+}
+
+.remove{ /* the other image*/
+  width:15%;
+  border: solid 10px rgb(255, 153, 0);
+  vertical-align: middle;
+}
+.delete{ /* the text*/ 
+  background-color: rgb(255, 191, 163);
+  margin:20px;
+  margin-top: 30px;
+  width:45%; /* the size of the text box */
+  padding:20px;
+  border-radius:20px;
+  font-size:25px;
+  text-align:center; /* the text is centered. */
+  vertical-align:middle; /* aligns in the middle of the line and inline with the images*/
+}

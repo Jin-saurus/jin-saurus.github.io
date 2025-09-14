@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poiret+One&family=Quicksand:wght@300..700&display=swap');
+
+
+body{ 
+  background-color: rgb(255, 216, 144); /* changes the background colour of the whole website to a beigish colour*/
+  font-family:quicksand; /* makes the font of the anyhting not specified to quicksand*/
+}
+p{
+  background-color: rgb(255, 191, 163);/* keeps the background of the paragraphs an orangey colour*/
+  margin: 20px; /* makes sure the paragraphs have some whitespace around them */
+  width:49%; /* keeps the text from taking up too much space */
+  padding:30px; /* keeps a bit of spcae between the text and the border */
+  border-radius:20px; /* rounds the corners of the paragraph blocks*/
+  font-size: 30px; /* keeps the font at 30px unless changes so that the text is larger*/
+  border: double 10px rgb(255, 238, 186); /* gives the borders a double line look that looks nice */
+  display:inline-block; /* keeps the text in being a block and avoid interacting with other elements*/
+}
+h1{
+  background-color: rgb(255, 251, 174); /* gives the headings a yellow background*/
+  margin: 20px;
+  width:49%;
+  font-size:50px; /* gives larger font for heading to stand out*/
+  padding:30px; /* gives some space between text and border*/
+  border-radius:20px; 
+  text-align:center; /* keeps text centered in the box*/
+  border: solid 10px rgb(255, 172, 121);/* gives a solid orange border to seperate it from the background*/
+  font-family:Nunito; /* changes the font of headings to be different from paragraphs*/
+  display:inline-block;
+}
+
+.logo{
+  border-radius: 20px; /* rounds the edges of the logo picture */
+  width:5%; /* shrinks the size of the logo*/
+  float: left; /* places the logo onto teh left of the header without interferring with otehr elements*/
+}
+.waterbackground{
+  width:35%; /* changes the size of the picture to fit better in the page*/
+  border-radius: 20px; 
+  height: 50%; /* change sthe picture's height to fit better in the page*/
+  float:inline-end; /* moves the picture to the end of the page without interferring wiht other elements*/
+  margin-right:40px; /* helps center the image*/
+  margin-top:40px;
+  border: solid 10px rgb(255, 111, 0); /* bright orange border*/
+}
+
+
+
+
+
+
+
+
+header{
+  background-color: rgb(216, 137, 103); /* make header dark orange*/
+  font-size: 50px; 
+  text-align: right; /* moves everything with text to the right*/
+  padding:10px;
+  border: dashed 5px rgb(255, 190, 190); /* dashed border around the header*/
+}
+a{
+ font-size:24px; /* cahnges link size in the buttons*/
+ color:rgb(0, 0, 0); /* changes link colour from blue to black*/
+ text-decoration: none; /* removes usual link underline*/
+}
+.button1{
+ border: solid 4px rgb(255, 157, 0); /* changes colour and thickness of button borders*/
+ padding:10px;
+ border-radius:20px; /* rounds the border of the buttons*/
+ background-color:rgb(255, 194, 150); /* changes button backgroudn colour to a orange*/
+ vertical-align: middle;
+}
+.button2{
+ border: solid 4px rgb(255, 111, 0);/* changes colour and thickness of button borders*/
+ padding:10px;
+ border-radius:20px;
+ background-color:rgb(255, 159, 121); /* changes button backgroudn colour ot a different orange*/
+ vertical-align: middle;
+}
+.button3{
+ border: solid 4px rgb(255, 200, 0);/* changes colour and thickness of button borders*/
+ padding:10px;
+ border-radius:20px;
+ background-color:rgb(255, 235, 174); /* changes button backgroudn colour ot a yellow*/
+ vertical-align: middle;
+}
+
+.buttonmore{
+ border: solid 4px rgb(255, 162, 0);
+ padding:10px;
+ border-radius:20px;
+ background-color:rgb(255, 221, 174);
+ float:right; /* moves the button to the right side of the page*/
+ margin-right:50px;
+}
+.buttonmore:hover{ /* whereever it says button something:hover, it makes button change when hovered over*/
+ border: solid 4px rgb(255, 162, 0);
+ padding:10px;
+ border-radius:20px;
+ background-color:rgb(255, 235, 205); /* lightens button colour */
+ text-decoration: underline; /* underlines text to show a difference*/
+}
+
+.button1:hover{
+ border: solid 4px rgb(255, 149, 0);
+ padding:10px;
+ border-radius:20px;
+ background-color:rgb(255, 208, 188); /* lightens button colour when hovered over*/
+ text-decoration:underline;/* underlines text in the button*/
+}
+.button2:hover{
+ border: solid 4px rgb(255, 68, 0);
+ padding:10px;
+ border-radius:20px;
+ background-color:rgb(255, 190, 179); /* lightens button colour when hovered over*/
+ text-decoration:underline;
+}
+.button3:hover{
+ border: solid 4px rgb(255, 183, 0);
+ padding:10px;
+ border-radius:20px;
+ background-color:rgb(255, 243, 222);
+ text-decoration:underline;
+}
+
+footer{/* adds a footer to the pages*/
+  background-color:rgb(255, 233, 173); /* makes the footer light yellow*/
+  height:100px;
+  margin-top:80px;
+  border-top:double 10px rgb(255, 171, 123);
+}
+.footer{/* adds text in the footer*/
+ background-color:rgb(255, 233, 173); /* changes colour of the footer text background */
+ border:none;
+ font-size: 22px;
+ text-align:right;
+ margin-top:45px;
+ margin-right:40px;
+ padding:0px;
+ float:right;
+}
+span{
+  color:rgb(69, 125, 255); /* changes text colour in teh span*/
+  text-decoration: underline;/*makes the text have an underline and look like a link*/  /*this would've been an actual link if it actually existed lol*/
+
+}

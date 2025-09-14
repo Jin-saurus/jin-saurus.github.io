@@ -1,0 +1,33 @@
+
+
+.contactye{ /* heading*/
+  background-color: rgb(255, 251, 174);
+  margin: 40px; /* margin aroudn the heading to spcae out th eleemtns*/
+  width:49%; /* width of the text box*/
+  font-size:50px;
+  padding:30px; /* adds some buffer space between text and the edge of the box */
+  border-radius:20px;
+  text-align:center;/* centers the text */
+}
+.contactya{ /* text*/
+  background-color: rgb(255, 191, 163);
+  margin-left:40px;/* margin on the left*/
+  width:49%;/* wudth of the text box*/
+  padding:30px;
+  border-radius:20px;
+  font-size: 30px;
+}
+
+
+.biglogo{ /* big version of the logo image*/
+  width:30%;/* width of the image so that it fits on the right side of the page*/
+  height:40%; 
+  border-radius: 20px;
+  height: 50%;
+  float:inline-end; /* moves the image to the end of the line*/
+  margin-right:40px; /* moves the image off of the right side of the page*/
+  margin-top:45px; /* moves it down the page to sto it from looking weird*/
+  border: solid 10px rgb(255, 165, 97);
+  vertical-align: middle; /* aligns with the center of everything*/
+}
+
